@@ -4,9 +4,6 @@ from tinygrad.helpers import tqdm
 import cv2
 import albumentations as A
 
-# Instructions:
-# 1. Download data from https://www.kaggle.com/datasets/volodymyrgavrysh/pneumothorax-binary-classification-task
-
 random.seed(0)
 
 class PneumothoraxData:
