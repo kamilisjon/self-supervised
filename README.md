@@ -1,4 +1,4 @@
-# Installation
+# Installation (only tested with Ubuntu-22.04)
 
 Pre-requisit: [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#linux)
 
