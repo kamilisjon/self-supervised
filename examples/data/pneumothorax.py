@@ -32,7 +32,7 @@ class PneumothoraxData:
           cv2.imwrite(str(output_path), augmented)
 
 if __name__ == "__main__":
-  pneumo_data = PneumothoraxData(os.path.expanduser("~/Downloads/archive/small_train_data_set/small_train_data_set"))
+  pneumo_data = PneumothoraxData(os.path.expanduser(input("Enter the path to the folder containing data: ")))
   print("Data stats")
   for k, v in list(pneumo_data.data_dict.items()): print(f"Pneumothorax class {k}. Images count: {len(v)}")
   for k, v in list(pneumo_data.split_dict.items()): print(f"Split {k}. Images count: {len(v)}")
