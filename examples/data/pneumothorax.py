@@ -36,4 +36,4 @@ if __name__ == "__main__":
   print("Data stats")
   for k, v in list(pneumo_data.data_dict.items()): print(f"Pneumothorax class {k}. Images count: {len(v)}")
   for k, v in list(pneumo_data.split_dict.items()): print(f"Split {k}. Images count: {len(v)}")
-  pneumo_data.generate_blurred_images(os.path.expanduser("~/Downloads/archive/blurred_data"))
+  pneumo_data.generate_blurred_images(os.path.expanduser(input("Enter the path where to save pretext data: ")))
