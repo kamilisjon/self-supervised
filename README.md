@@ -1,9 +1,11 @@
 # Installation
 
-Pre-requisit: [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#linux)
+Pre-requisite: [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#linux)
 
 ```sh
 git clone https://github.com/kamilisjon/self-supervised.git
 cd self-supervised
-conda env create
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install -e .
 ```
