@@ -1,9 +1,0 @@
-name: self-supervised
-channels:
-  - pytorch
-  - conda-forge
-dependencies:
-  - python=3.10
-  - pytorch=2.5.1
-  - torchvision=0.20.1
-  - pip
