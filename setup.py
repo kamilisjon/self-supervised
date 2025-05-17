@@ -16,7 +16,10 @@ setup(name='self-supervised',
         "License :: OSI Approved :: MIT License"
       ],
       install_requires=[
-        "tinygrad==0.10.3"
+        "tinygrad==0.10.3",
+        "opencv-python==4.11.0.86",
+        "albumentations==2.0.7",
+        "matplotlib==3.10.3"
       ],
       python_requires='>=3.10',
       include_package_data=True)
